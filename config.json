@@ -1,0 +1,31 @@
+{
+  "DATABASE_URI": "mongodb://localhost:27017/dev",
+  "CLOUD_PATH": "./cloud/main.js",
+  "APP_ID": "com-mk-app-myparser",
+  "MASTER_KEY": 235810117865,
+  "FILE_KEY": "<your-file-key>",
+  "PARSE_MOUNT_PATH": "/parse",
+  "SERVER_URL": "http://130.211.122.214",
+  "PORT": 8080,
+  "push": {
+    "android": {
+      "senderId": 235810117865,
+      "apiKey": "AIzaSyCHXdN2yWe8yG72YMP4hYgkk0YnAEEppo0"
+    },
+    "ios": {
+      "pfx": "",
+      "passphrase": "",
+      "bundleId": "",
+      "production": true
+    }
+  },
+  "oauth": {
+    "twitter": {
+      "consumer_key": "q6bvaiGhMAtpGKaANLAU9HDGn ",
+      "consumer_secret": "8e0MZaPxhupdeV84drk4jRco0YLTYKPYGIYswAlJBcAHEZH32x"
+    },
+    "facebook": {
+      "appIds": 1757996497780162
+    }
+  }
+}
